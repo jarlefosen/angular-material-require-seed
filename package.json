@@ -1,0 +1,13 @@
+{
+  "name": "angular-material-require",
+  "version": "1.0.0",
+  "description": "Angular with Material Design and RequireJS seed",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarle Fosen <jarlefosen@gmail.com>",
+  "devDependencies": {
+    "bower": "^1.3.12"
+  }
+}
