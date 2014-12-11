@@ -1,0 +1,28 @@
+# IDE, Project or TextEditor specific files
+*.iml
+out/
+.idea/
+.idea_modules/
+*.iws
+*.ipr
+*.un~
+Session.vim
+*.sublime-*
+.sass-cache
+
+# Crash report form IntelliJ
+com_crashlytics_export_strings.xml
+
+
+# NPM and Bower
+node_modules
+www/bower_components
+npm-debug.log
+
+# Emacs
+*~
+
+# OS X
+.DS_Store
+
+.idea
