@@ -1,0 +1,12 @@
+body {
+    background: #f5f5f5;
+}
+
+.home {
+    background: blue;
+}
+
+.button-center {
+    display: block;
+    text-align: center;
+}

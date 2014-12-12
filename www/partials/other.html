@@ -1,0 +1,27 @@
+<div class="col-lg-4 col-xs-12 container well">
+
+  <h1 class="text-center">{{text}}</h1>
+  <div class="button-center">
+    <md-button class="md-shadow-animated md-raised" md-themable="true"
+               ng-click="reloadList()">Reload list</md-button>
+  </div>
+
+
+  <md-card class="md-raised md-shadow-animated">
+    <div class="item-list">
+      <div ng-repeat="item in items" class="item-list-entry" ng-click="openItem(item)">
+        <div class="well text-center">
+          {{item.name}}
+        </div>
+      </div>
+    </div>
+  </md-card>
+
+</div>
+
+<div class="col-lg-8 col-xs-12 well well-lg">
+  <div ui-view>
+    <h3>When an item in the list is clicked, this view will be
+      replaced with other-detail.html and OtherDetailController</h3>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div>
+  <h1>{{text}}</h1>
+  <p>State Param ID: {{param}}</p>
+  <p>This is the content loaded from the service and put on scope.</p>
+  <div ng-show="item !== undefined">
+    <p><label>ID:</label> {{item.id}}</p>
+    <p><label>Name:</label> {{item.name}}</p>
+    <p><label>Description:</label> {{item.description}}</p>
+  </div>
+  <div ng-hide="item !== undefined">
+    <h3>Oups. Could find the item you were looking for.</h3>
+  </div>
+
+</div>
