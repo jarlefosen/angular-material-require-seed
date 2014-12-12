@@ -1,5 +1,5 @@
 {
-  "name": "angular-material-require",
+  "name": "angular-material-require-seed",
   "version": "1.0.0",
   "description": "Angular with Material Design and RequireJS seed",
   "main": "www/index.html",
