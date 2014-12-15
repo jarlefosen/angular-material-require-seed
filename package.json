@@ -4,6 +4,7 @@
   "description": "Angular with Material Design and RequireJS seed",
   "main": "www/index.html",
   "scripts": {
+    "postinstall": "(cd www; bower install)",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jarle Fosen <jarlefosen@gmail.com>",
